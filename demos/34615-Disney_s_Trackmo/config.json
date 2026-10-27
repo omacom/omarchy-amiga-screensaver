@@ -1,0 +1,83 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "34615-Disney_s_Trackmo",
+  "title": "Disney's Trackmo",
+  "group": "Faculty",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0329-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/34615.dms"
+      },
+      "config": "variants/0329-1/demo.fs-uae",
+      "state": "variants/0329-1/state/Saved State 1.uss",
+      "state_sha256": "ab6adad1bef4b227ccf54a68839fba9efbc40bc8caf39885bc7876f559cbf794",
+      "original_config_sha256": "ea192c012b19a5615f2e1d599b45c83ac174be2ef3092d1c44bd2ce8ca2ffc31",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/34615.dms",
+          "embedded_path": "/media/34615.dms",
+          "sha256": "0255bd3f92221a2b6d54ec158bc7fbdf68f089fcf1688ab281609c79203b98eb"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "71e1c7d805ae3735e7faeaedaff48719aab655a8bba428b575e88986f00b2352",
+      "destination_playback_verified": false
+    },
+    {
+      "task_id": "0329-2",
+      "attempt": "alternate",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "OCS",
+        "accuracy": "1",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/34615.dms"
+      },
+      "config": "variants/0329-2/demo.fs-uae",
+      "state": "variants/0329-2/state/Saved State 1.uss",
+      "state_sha256": "31606f19ed290e035d3f127e2b4ca5a77e1f25ea373a898e3ebf52cd56c3b3e7",
+      "original_config_sha256": "eded531d64cedc443281c70e9ec956acbf2b015cfb0113e1512a7dfbc5258185",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/34615.dms",
+          "embedded_path": "/media/34615.dms",
+          "sha256": "0255bd3f92221a2b6d54ec158bc7fbdf68f089fcf1688ab281609c79203b98eb"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "73d3ce2e1625083256ca1b675e42a1a8fa4760dea80186cfe3d032c228de5ee8",
+      "destination_playback_verified": false
+    }
+  ]
+}

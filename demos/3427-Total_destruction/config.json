@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "3427-Total_destruction",
+  "title": "Total destruction",
+  "group": "Crionics",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0327-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/3427.dms"
+      },
+      "config": "variants/0327-1/demo.fs-uae",
+      "state": "variants/0327-1/state/Saved State 1.uss",
+      "state_sha256": "2fbe865ff419846242322729cbe6f3e33309dc843ec81e4ffbf64526ab7c25f8",
+      "original_config_sha256": "5995853ad8c4e48c8dcdf9aa6419e7b76270c322432ce69df63b19f78343769c",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/3427.dms",
+          "embedded_path": "/media/3427.dms",
+          "sha256": "3a14099c339cef94380b85d1ef97a02e0145a9bac5eeccef81750b71ea77724e"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "41567f1925d48a4e0b4eddc4aac3ab760c1c61c75ba74633c1e158d0a003e0bf",
+      "destination_playback_verified": false
+    }
+  ]
+}

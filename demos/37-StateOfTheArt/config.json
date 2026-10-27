@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "37-StateOfTheArt",
+  "title": "State of the Art",
+  "group": "Spaceballs",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0335-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/Spaceballs-StateOfTheArt.adf"
+      },
+      "config": "variants/0335-1/demo.fs-uae",
+      "state": "variants/0335-1/state/Saved State 1.uss",
+      "state_sha256": "cad6d1698e3555a188f80369238ac008b0c43db99b8154d8fa096b710ed025de",
+      "original_config_sha256": "fecf37cc8b12f7b49f04dd1287e765db0bb9861f58bd04cdb076edec1e4d2d75",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/Spaceballs-StateOfTheArt.adf",
+          "embedded_path": "/media/Spaceballs-StateOfTheArt.adf",
+          "sha256": "6eb968f6b97f22ed49322d99f7b142242fea458f82fcb91eff40ba52e6b4d703"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "2868442a123a0f8d0104fd9bf260069037d7cadf85d4d36c5ed48dc03a4ef44a",
+      "destination_playback_verified": false
+    }
+  ]
+}

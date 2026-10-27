@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "81669-Gammelheter_2",
+  "title": "Gammelheter 2",
+  "group": "Senex",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0565-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/81669.dms"
+      },
+      "config": "variants/0565-1/demo.fs-uae",
+      "state": "variants/0565-1/state/Saved State 1.uss",
+      "state_sha256": "ea932cc52d0fd658f62e1ddfa30754c10118ea16a8ec41856cdd5279f6e61e28",
+      "original_config_sha256": "b0b0ba0ad91af91d23eda121aa3f7455d126e9176436a908c2d280be970e52ea",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/81669.dms",
+          "embedded_path": "/media/81669.dms",
+          "sha256": "dad1eb791875517959e6c8552bfddfd52e1a2c2fc8c9e57175d354b6b976c1ff"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "621fb691c98228fd7085828d870b40dac9ffa9668e8c680723897fd4d3a207e3",
+      "destination_playback_verified": false
+    }
+  ]
+}

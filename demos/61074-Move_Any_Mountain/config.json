@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "61074-Move_Any_Mountain",
+  "title": "Move Any Mountain",
+  "group": "Lazy Bones",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0449-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/MoveAnyMountain.adf"
+      },
+      "config": "variants/0449-1/demo.fs-uae",
+      "state": "variants/0449-1/state/Saved State 1.uss",
+      "state_sha256": "eac86996047c035230486ae08b49715786dadecc389666731c5d534a9eb7dc66",
+      "original_config_sha256": "0678c20742d2b7dab604e334d7364062f608970c84688132db5d86491d453060",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/MoveAnyMountain.adf",
+          "embedded_path": "/media/MoveAnyMountain.adf",
+          "sha256": "e289202bac2338610736388006a0bf2039795f73535f56dacec3e847b546cd8c"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "6111f992d5ff359e76bf9de3285b1f5b4e5a48644162912fab6147741d59ac93",
+      "destination_playback_verified": false
+    }
+  ]
+}

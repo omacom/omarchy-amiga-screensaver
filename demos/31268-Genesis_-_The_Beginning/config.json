@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "31268-Genesis_-_The_Beginning",
+  "title": "Genesis - The Beginning",
+  "group": "Paradise",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0257-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/31268.dms"
+      },
+      "config": "variants/0257-1/demo.fs-uae",
+      "state": "variants/0257-1/state/Saved State 1.uss",
+      "state_sha256": "dc70538b137c95bc3b35255d5a5c23c3720715728e3cfa3578297a7146a93673",
+      "original_config_sha256": "0b837207741fed7981dfcfb4f15b0c750d3f3ed2c473d4b5f98c56d9cd010db6",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/31268.dms",
+          "embedded_path": "/media/31268.dms",
+          "sha256": "0cfd2fc5d86b2e6e3c691f8fe6c3ab7120b44e000d4ebb82ea6ccc80b9bb25ca"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "6b4372b2b3d9d20c923c24dbc6bade72fdb288e1352aff5180a07b28ec5ca6ec",
+      "destination_playback_verified": false
+    }
+  ]
+}

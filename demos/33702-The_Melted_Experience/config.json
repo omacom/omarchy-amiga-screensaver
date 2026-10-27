@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "33702-The_Melted_Experience",
+  "title": "The Melted Experience",
+  "group": "The Electric Touch",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0321-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/33702.dms"
+      },
+      "config": "variants/0321-1/demo.fs-uae",
+      "state": "variants/0321-1/state/Saved State 1.uss",
+      "state_sha256": "b84f722a9bf3bf5c161b9b71139fb2b492788d85c6938d3025f601edf41010aa",
+      "original_config_sha256": "653148a97d2f3566adba3c41ac0a5387e56a6a883b42ca257f8be9fab2d57b60",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/33702.dms",
+          "embedded_path": "/media/33702.dms",
+          "sha256": "0695bc1feb6773d66892f2931b7ec36cc86c51cd1fa3ff5fe740a48f3cce4c37"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "748db1507bf3dc65dba2e4e1409d4701d1c0695d0772f23d88fc49c8c402d948",
+      "destination_playback_verified": false
+    }
+  ]
+}

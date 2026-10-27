@@ -1,0 +1,83 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "66795-Vectorize",
+  "title": "Vectorize",
+  "group": "Red Sector Inc.",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0489-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/RSiVectorize.adf"
+      },
+      "config": "variants/0489-1/demo.fs-uae",
+      "state": "variants/0489-1/state/Saved State 1.uss",
+      "state_sha256": "b4f8a0d7c073e1f533bfed2edc55d91d040e6b0658f176fa1e986218b9afa694",
+      "original_config_sha256": "cad1825282a11c7455045596c167a5796c1b0a03b46f57e765a41645c940fb5c",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/RSiVectorize.adf",
+          "embedded_path": "/media/RSiVectorize.adf",
+          "sha256": "cafb4969c5b12de2a2e10ad249a569bd74d790d464a89e356a1f8f16d9e31821"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "d9f137e7f6cd4de2db78c247b9387091ba888c37f361c84c2eb884a7cf765645",
+      "destination_playback_verified": false
+    },
+    {
+      "task_id": "0489-2",
+      "attempt": "alternate",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "OCS",
+        "accuracy": "1",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/RSiVectorize.adf"
+      },
+      "config": "variants/0489-2/demo.fs-uae",
+      "state": "variants/0489-2/state/Saved State 1.uss",
+      "state_sha256": "9caeee0e6cfd298018a07b1535225afb58f13f507f1832df4bdbb0ef268012fa",
+      "original_config_sha256": "0245ca2459e10ac31194c94ab68829da3df4b04f757627877e4c1b460df119fc",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/RSiVectorize.adf",
+          "embedded_path": "/media/RSiVectorize.adf",
+          "sha256": "cafb4969c5b12de2a2e10ad249a569bd74d790d464a89e356a1f8f16d9e31821"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "a90b97fa3f020fb8521190c4cbd71f6d1d5675aeb60fd8c6787577d197f49c16",
+      "destination_playback_verified": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "10371-Megademo",
+  "title": "Megademo",
+  "group": "The Silents",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0029-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/tsl_megademo.adf"
+      },
+      "config": "variants/0029-1/demo.fs-uae",
+      "state": "variants/0029-1/state/Saved State 1.uss",
+      "state_sha256": "deab4b2d92b5b34ada27b6642070014c9302ad78133d73582814e0f2ff4bf9e3",
+      "original_config_sha256": "2cef6c4fa9e0b467dd552a0b17ec2ed46095856d44c557ece3f41bf5e046ff43",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/tsl_megademo.adf",
+          "embedded_path": "/media/tsl_megademo.adf",
+          "sha256": "fd4fc9d52c9278cf8b9b9ffa3be50aee29b464564751aae0009ba33893a9aa1d"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "d1f75b8bf04c03c17314b82899eaebfdcf1e420eb648a0200e92528ce0575719",
+      "destination_playback_verified": false
+    }
+  ]
+}

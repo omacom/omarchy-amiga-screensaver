@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "31946-Dragon",
+  "title": "Dragon",
+  "group": "animators",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0267-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/31946.adf"
+      },
+      "config": "variants/0267-1/demo.fs-uae",
+      "state": "variants/0267-1/state/Saved State 1.uss",
+      "state_sha256": "f657c042cc2802d7f7ce63b14876971cfceac5352eade5247519e0baddec1394",
+      "original_config_sha256": "e31dfb60642ebfb51476b4010769ebe3e453b8af1eb501288c87cf5ff8b5dde3",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/31946.adf",
+          "embedded_path": "/media/31946.adf",
+          "sha256": "d01c8fea0f0141b4178d2304d39bdd977cfccf949f72cdc7d10138aae337541c"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "19fabeaca174bc5ce29381472d164d1167c7518e34a5d49debc69baeef32d407",
+      "destination_playback_verified": false
+    }
+  ]
+}

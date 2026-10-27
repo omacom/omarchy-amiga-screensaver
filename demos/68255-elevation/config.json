@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "68255-elevation",
+  "title": "elevation",
+  "group": "The Electronic Knights",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0508-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/68255.adf"
+      },
+      "config": "variants/0508-1/demo.fs-uae",
+      "state": "variants/0508-1/state/Saved State 1.uss",
+      "state_sha256": "223ab7ba0093c544c2b1ac52451d32d6cb13347bbc172ef3c08bd6a96ff67923",
+      "original_config_sha256": "f12fdbc09c540bf16b409681405e147172582a0e7e15065e11245b4c37d85c44",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/68255.adf",
+          "embedded_path": "/media/68255.adf",
+          "sha256": "33dacc9fd5220e1a96905a8d761065419547aefbf452cec66e7d077b5a73683f"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "dbb6328f4b3146a64b6c72e5ddf811f746051f8415df9f53ed047cd2bdf8b967",
+      "destination_playback_verified": false
+    }
+  ]
+}

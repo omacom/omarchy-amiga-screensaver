@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "1337-All_Around",
+  "title": "All Around",
+  "group": "Fairlight",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0115-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/1337.dms"
+      },
+      "config": "variants/0115-1/demo.fs-uae",
+      "state": "variants/0115-1/state/Saved State 1.uss",
+      "state_sha256": "72b5afe5c929d6a8e802bb6bd9eea46bb36ed555678c25273782f813608bf1e3",
+      "original_config_sha256": "8b20d40c3a427f97edd0c3c4c4709d36047bf3e37c2ca6d9877cc60928d8ddf0",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/1337.dms",
+          "embedded_path": "/media/1337.dms",
+          "sha256": "6d968f48e4d5a5319d978b830b9451d8d7aed5d144dd9ce9a3164b000c53dc59"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "86596a39d920448aef6ec45d141fe23891ed9b848b0732f26a6ecec3a9076dc2",
+      "destination_playback_verified": false
+    }
+  ]
+}

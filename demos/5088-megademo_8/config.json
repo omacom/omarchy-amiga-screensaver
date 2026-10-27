@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "5088-megademo_8",
+  "title": "megademo 8",
+  "group": "Kefrens",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0374-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/5088.adf"
+      },
+      "config": "variants/0374-1/demo.fs-uae",
+      "state": "variants/0374-1/state/Saved State 1.uss",
+      "state_sha256": "3c1cad304ca3e4e8749598bb129f97dd0a27cb41bc5c662a04474a30ffefbe81",
+      "original_config_sha256": "11aea4e8f7e729f2724d7598ea5d46296f859c91b90a01b535305c4a2f2e31a6",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/5088.adf",
+          "embedded_path": "/media/5088.adf",
+          "sha256": "54a8b39e5dff62f1374bb6e38a92193a6b93eadc405f2ddb9a62eae56f4c516c"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "cbe3399674ccdbce9b7c7f35d6edfd008038a6e59216611b44d275fc0a317f6d",
+      "destination_playback_verified": false
+    }
+  ]
+}

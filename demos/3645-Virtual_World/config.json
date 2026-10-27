@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "3645-Virtual_World",
+  "title": "Virtual World",
+  "group": "TomSoft",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0334-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/3645.dms"
+      },
+      "config": "variants/0334-1/demo.fs-uae",
+      "state": "variants/0334-1/state/Saved State 1.uss",
+      "state_sha256": "aa391c8b877ac1f057bde1b9137b4e9ed9302ccbacc39aeb5c76fb56f0fb2cb9",
+      "original_config_sha256": "808d61fe1bb085ccfe127f5355d5f1a6810d1d29a3e60c582caec75a612f19cc",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/3645.dms",
+          "embedded_path": "/media/3645.dms",
+          "sha256": "6f8d1e03f8f1c060898c4b3bdaeed87e863e3c9a6ab139844742d88b358dd2f6"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "ceeec6563c9541c45867288fd2da05ee0211dbbfca81b4706faa2495153f6d58",
+      "destination_playback_verified": false
+    }
+  ]
+}

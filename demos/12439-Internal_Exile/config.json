@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "12439-Internal_Exile",
+  "title": "Internal Exile",
+  "group": "Infocorner",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0103-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/12439.dms"
+      },
+      "config": "variants/0103-1/demo.fs-uae",
+      "state": "variants/0103-1/state/Saved State 1.uss",
+      "state_sha256": "aa0ae628147fc70b1c02fc5d128400601d9c8dfd7d6b8ec3242c75148eb6c3fc",
+      "original_config_sha256": "7014d82ad8e3461ca99ac95ae94635d5f98c37a2795829de9a07ff4a0f7b4957",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/12439.dms",
+          "embedded_path": "/media/12439.dms",
+          "sha256": "0a43df668afc028dae967028a5312f945d3c6c0d86572921cc7616b76ea4c796"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "c29c88e0dcbfb5c0e91dc23a4a5a57621d5b4c22c9cac83752becbd1839d0e2f",
+      "destination_playback_verified": false
+    }
+  ]
+}

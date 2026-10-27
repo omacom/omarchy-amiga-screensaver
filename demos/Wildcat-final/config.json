@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "Wildcat-final",
+  "title": "Wildcat",
+  "group": "DMA",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0486-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/Wildcat.adf"
+      },
+      "config": "variants/0486-1/demo.fs-uae",
+      "state": "variants/0486-1/state/Saved State 1.uss",
+      "state_sha256": "1e28438989779d6eeeeff2de606b7c53a68cafdc726107389bb399cf635d5dbd",
+      "original_config_sha256": "92538de46b764941eb838df27c834fabffd6a75f3f1e46b8f0c0d846339858ac",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/Wildcat.adf",
+          "embedded_path": "/media/Wildcat.adf",
+          "sha256": "7d7241e9c667704a81e5745fdd6e08e2307880907892ab38f5ce144e9b38cbde"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "9861c752816db913deccdc38aee5ede3b23932b9e1e0bd0537d344ce6539461a",
+      "destination_playback_verified": false
+    }
+  ]
+}

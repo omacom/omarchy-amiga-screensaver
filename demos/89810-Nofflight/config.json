@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "89810-Nofflight",
+  "title": "Nofflight",
+  "group": "Piston",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0605-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/89810.adf"
+      },
+      "config": "variants/0605-1/demo.fs-uae",
+      "state": "variants/0605-1/state/Saved State 1.uss",
+      "state_sha256": "12e9c8dc78de469b7a1e7528cb87ddff8f78d58c7f63ef9e8a2cdb8523540dd5",
+      "original_config_sha256": "d8dfbf9092d85d4359e6f6ddeb172a84b21ae2e62f37087808ed39c5268de64e",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/89810.adf",
+          "embedded_path": "/media/89810.adf",
+          "sha256": "117c2154a5e8adac1e8f654325f887572cba5bb75638ed5c6b6f353a326494e3"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "beffacf12533be4eede97e4158d7c6e49a21c9415a6e37c49a934803c245a174",
+      "destination_playback_verified": false
+    }
+  ]
+}

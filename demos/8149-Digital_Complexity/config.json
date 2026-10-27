@@ -1,0 +1,83 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "8149-Digital_Complexity",
+  "title": "Digital Complexity",
+  "group": "Crass",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0563-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/8149.dms"
+      },
+      "config": "variants/0563-1/demo.fs-uae",
+      "state": "variants/0563-1/state/Saved State 1.uss",
+      "state_sha256": "373b6fd016b0679aa47153a1d167fcd52537bf2b1e2cbde5f7fe9cee585b6253",
+      "original_config_sha256": "9c6acc2022a8e916619a96f771fc674efc2595b21fc90ecf9bcc4fce31e5b7f3",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/8149.dms",
+          "embedded_path": "/media/8149.dms",
+          "sha256": "cf784dedb7e96026bb6c024851a23eb50c2225c252caebba9d8e2ea88eabd0c4"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "62a0ca76685583d99ada9c1409da935dbfb150b6b5201747f19c9cbae65acb6d",
+      "destination_playback_verified": false
+    },
+    {
+      "task_id": "0563-2",
+      "attempt": "alternate",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "OCS",
+        "accuracy": "1",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/8149.dms"
+      },
+      "config": "variants/0563-2/demo.fs-uae",
+      "state": "variants/0563-2/state/Saved State 1.uss",
+      "state_sha256": "6ab7e86599c059c3e3a3d6b39bb320e8594a37928b65c65013a71087b06a26bc",
+      "original_config_sha256": "90659def445be9d7096338cc8a378f2ab76527f6457dac37a6dd59e092693ae3",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/8149.dms",
+          "embedded_path": "/media/8149.dms",
+          "sha256": "cf784dedb7e96026bb6c024851a23eb50c2225c252caebba9d8e2ea88eabd0c4"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "9799a1388403b5d75fdcf133ebf974cfb17c2ac5e412687839d6a7655372cf9d",
+      "destination_playback_verified": false
+    }
+  ]
+}

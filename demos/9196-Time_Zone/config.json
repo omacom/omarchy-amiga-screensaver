@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "9196-Time_Zone",
+  "title": "Time Zone",
+  "group": "Tristar & Red Sector Inc.",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0624-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/9196.dms"
+      },
+      "config": "variants/0624-1/demo.fs-uae",
+      "state": "variants/0624-1/state/Saved State 1.uss",
+      "state_sha256": "24c91787757ea06a1a2ddaea20485e7ae2435dfd75ccc9a53023c1b3a686d059",
+      "original_config_sha256": "31862a64d76ee9d701ebda3bf04e9eacb7e8725042ce628613e95f3aee530dbe",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/9196.dms",
+          "embedded_path": "/media/9196.dms",
+          "sha256": "4b062be5b810cbb8697d1009022b1ef42ace08063f7fe84abca38f37e7fb0ef9"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "404052c952a2e151e6b294743b269bfeff5ef01ce93ab346b7d9699536cfa684",
+      "destination_playback_verified": false
+    }
+  ]
+}

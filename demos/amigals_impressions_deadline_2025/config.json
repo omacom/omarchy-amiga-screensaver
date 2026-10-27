@@ -1,0 +1,53 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "amigals_impressions_deadline_2025",
+  "title": "Impressions",
+  "group": "AMIGALS",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0050-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/Impressions_Amigals_A500.adf",
+        "floppy_drive_1": "media/Impressions_Amigals_PostParty.adf"
+      },
+      "config": "variants/0050-1/demo.fs-uae",
+      "state": "variants/0050-1/state/Saved State 1.uss",
+      "state_sha256": "8f5714a8e5de49529fa80f9f066e2912135d3cfcfada069f27d30090e8abf18f",
+      "original_config_sha256": "4237d8d2f25f8d14c93c929df2421e7a1696ac4c47196b28c9f324fe9f04c25d",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/Impressions_Amigals_A500.adf",
+          "embedded_path": "/media/Impressions_Amigals_A500.adf",
+          "sha256": "922bced2d496fd4aa88cabc82931d0f42a45e32298ffd1e9f50eb65b8d4a4aef"
+        },
+        {
+          "option": "floppy_drive_1",
+          "path": "media/Impressions_Amigals_PostParty.adf",
+          "embedded_path": "/media/Impressions_Amigals_PostParty.adf",
+          "sha256": "1f53979cb3efb8878e83514be8a3ae1d6a4ba53570dafb2fc9403a07629da024"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "7b5ec34c426600fa2a9d6b6ec2b595493978542a63d36990a228cf61dcf664c0",
+      "destination_playback_verified": false
+    }
+  ]
+}

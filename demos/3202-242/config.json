@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "3202-242",
+  "title": "242",
+  "group": "Fairlight & Virtual Dreams",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0269-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/3202.dms"
+      },
+      "config": "variants/0269-1/demo.fs-uae",
+      "state": "variants/0269-1/state/Saved State 1.uss",
+      "state_sha256": "a202b948ea6af50174bff429aa3ae4b0759c602f6a6abf42d13fbfbad7b1e829",
+      "original_config_sha256": "022956f804b11cb63d70785ac4169c54418e3d9e695cd2feb034ad710479c23a",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/3202.dms",
+          "embedded_path": "/media/3202.dms",
+          "sha256": "d553248f770f46a117997ff555e43a5818fec78d9d02fdcc8edff0c0c087fbce"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "e1282f3f80ab25584ebc3cbe11e5a51f8052799590b4ce41239c98fa384aeec0",
+      "destination_playback_verified": false
+    }
+  ]
+}

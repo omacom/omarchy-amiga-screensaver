@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "68903-Dandelion",
+  "title": "Dandelion",
+  "group": "The Electronic Knights",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0513-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/68903.adf"
+      },
+      "config": "variants/0513-1/demo.fs-uae",
+      "state": "variants/0513-1/state/Saved State 1.uss",
+      "state_sha256": "da609315b19cd4989c59575548a87ec0c425458d1fa3bf7690d2959e90739a94",
+      "original_config_sha256": "a2e12a723c61057af1486108f6efaaa3c96c5e29e397103ef376952948f23da6",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/68903.adf",
+          "embedded_path": "/media/68903.adf",
+          "sha256": "75e6a8ae8c9eb41a82540e00afd0d15f369778ff3888f61483a42fc7cd3ff02e"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "c02faea4ad6ee29b0e20967c3f4819c945b1e9612454b1a09fd63607cc2432bf",
+      "destination_playback_verified": false
+    }
+  ]
+}

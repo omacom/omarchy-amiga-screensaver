@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "14651-Faster_Than_Hell",
+  "title": "Faster Than Hell",
+  "group": "World Federation of Mad Hackers",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0128-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/14651.dms"
+      },
+      "config": "variants/0128-1/demo.fs-uae",
+      "state": "variants/0128-1/state/Saved State 1.uss",
+      "state_sha256": "0d1960c2a209852cbc0d80a16089dd29ac4af7bca670379b4e33eb40675d1fa8",
+      "original_config_sha256": "6963b77abefd2b047872dd01b38eeb9620a9db919ef55053ad2325e13fcf8635",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/14651.dms",
+          "embedded_path": "/media/14651.dms",
+          "sha256": "ad8a3a718614979ae601ce0a010152c72816cb3c15cdedfe3d15538b7d5224b2"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "c73733da8cff1d1a8c1d51a1ed76b1ef12f043bb9abcce4aa1ca9d91f9f39553",
+      "destination_playback_verified": false
+    }
+  ]
+}

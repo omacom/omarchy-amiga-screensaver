@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "9715-Megademo",
+  "title": "Megademo",
+  "group": "The Giants",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0653-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/9715.dms"
+      },
+      "config": "variants/0653-1/demo.fs-uae",
+      "state": "variants/0653-1/state/Saved State 1.uss",
+      "state_sha256": "9c6955a494512576ae2b44d572026bd0b21edcfdf0a45fd9ea52aa7b31685220",
+      "original_config_sha256": "7e6a3e99c7871c18e1708e9cbbe822ce6e7a565d470f688d24092b94f51ee804",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/9715.dms",
+          "embedded_path": "/media/9715.dms",
+          "sha256": "c05ac5c3a34b9a8d5f95048b07788a1b399276eed74962610acb0332e0b2be9e"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "d1ee265367d5661261387265872fada401410cbac63f5a45e5dc7ba6033b8919",
+      "destination_playback_verified": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "amiga-demo-v1",
+  "id": "20207-The_Killing_Joke",
+  "title": "The Killing Joke",
+  "group": "Batman Group",
+  "preview": "preview.png",
+  "variants": [
+    {
+      "task_id": "0196-1",
+      "attempt": "primary",
+      "settings": {
+        "kickstart_file": "internal",
+        "amiga_model": "A500",
+        "chipset": "ECS",
+        "accuracy": "100",
+        "floppy_drive_speed": "100",
+        "ntsc": "0",
+        "slow_memory": "512",
+        "fast_memory": "0",
+        "keep_aspect_ratio": "1",
+        "grab_input": "0",
+        "floppy_drive_0": "media/20207.dms"
+      },
+      "config": "variants/0196-1/demo.fs-uae",
+      "state": "variants/0196-1/state/Saved State 1.uss",
+      "state_sha256": "9ba462a7846ed0518f940836687aae5728a32cb54cf3c44d9525ff168c3d211f",
+      "original_config_sha256": "dfe2362b2e5b9c43ddc4315568aa7b548a0cba8911baccdee4e61f4242c0e1c3",
+      "media": [
+        {
+          "option": "floppy_drive_0",
+          "path": "media/20207.dms",
+          "embedded_path": "/media/20207.dms",
+          "sha256": "4011c4d7b4539e8c1595e99843acfdcfc1f62adf4f489ee882fb330d66730836"
+        }
+      ],
+      "rom": {
+        "kind": "internal",
+        "identity": "embedded in exact emulator binary",
+        "container_sha256": "3c53cc69d0acc1a15358cecd71dabc71aa14e924d14a2f122c15f6fc99637be3"
+      },
+      "review_status": "Ok",
+      "review_binding_sha256": "c07e0c5975e1bb8b1504d4c55f9496d49b875a229c2e20f423d07a0c603231a0",
+      "destination_playback_verified": false
+    }
+  ]
+}
